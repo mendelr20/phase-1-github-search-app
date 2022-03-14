@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
 const form = document.getElementById("github-form")
 form.addEventListener('submit', (event) => { 
     event.preventDefault()
@@ -38,3 +39,4 @@ function showUserRepos(username, e) {
         reposList.append(li)
     }))
 }
+})
